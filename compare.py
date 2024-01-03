@@ -2,8 +2,8 @@ x = int(input("What's x? "))
 y = int(input("What's y? "))
 
 if x < y:
-    print("X is less than y")
-if x > y:
-    print("X is greather than y")
-if x == y:
-    print("X is equal to y")
+    print("x is less than y")
+elif x > y:
+    print("x is greather than y")
+elif x == y:
+    print("x is equal to y")
