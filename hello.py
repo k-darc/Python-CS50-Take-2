@@ -6,5 +6,5 @@ def main():
 def hello(to="world"):
     print("hello,", to)
 
-
-main()
+if __name__ == "__main__":
+    main()
