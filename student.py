@@ -11,8 +11,7 @@ def main():
 def get_student():
     name = input("Name: ")
     house = input("House: ")
-    Student(name, house)
-    return student
+    return Student(name, house)
 
 if __name__ == "__main__":
     main()
