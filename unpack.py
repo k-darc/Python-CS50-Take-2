@@ -1,5 +1,5 @@
-def f(*args, **kwargs):
-    print("Named:", kwargs)
+def print(*objects, sep=" ", end="\n", ...):
+    for object in objects:
+        ...
 
-
-f(galleons=100, sickles=50, knuts=25)
+1:37:35
