@@ -7,13 +7,17 @@ def main():
     withdraw(50)
     print("Balance:", balance)
 
+
 def deposit(n):
-    balance += name
+    global balance
+    balance += n
 
 
 
 def withdraw(n):
+    global balance
     balance -= n
+
 
 if __name__ == "__main__":
     main()
